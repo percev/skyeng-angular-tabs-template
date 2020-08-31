@@ -1,0 +1,18 @@
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    min-height: 100px;
+    border: 1px solid gray;
+    margin: 10px;
+    cursor: pointer;
+}
+.tab_active {
+    background-color: lightgray;
+    box-shadow: 1px 1px 1px gray;
+}
+.tab__title {
+    text-transform: uppercase;
+    margin: 5px;
+}
